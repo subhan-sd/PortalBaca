@@ -1,0 +1,40 @@
+{
+    "berita":[
+        {
+         "id"      : 1,
+         "judul"   : "Makanan Terenak DI Pulau Jawa" ,
+         "penulis" : "Subhan Singandaru",
+         "waktu"   : "12-Des-2022",
+         "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
+         {
+         "id"      : 2,
+         "judul"   : "Fungsi Susu Steril" ,
+         "penulis" : "Subhan Singandaru",
+         "waktu"   : "12-Des-2022",
+         "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
+         {
+            "id"      : 3,
+            "judul"   : "Majalah Bobo tidak sama" ,
+         "penulis" : "Subhan Singandaru",
+         "waktu"   : "12-Des-2022",
+         "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
+         {
+            "id"      : 4,
+            "judul"   : "Makanan Terenak DI Pulau Jawa" ,
+         "penulis" : "Subhan Singandaru",
+         "waktu"   : "12-Des-2022",
+         "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
+         {
+            "id"      : 5,
+            "judul"   : "Fungsi Susu Steril" ,
+         "penulis" : "Subhan Singandaru",
+         "waktu"   : "12-Des-2022",
+         "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
+         {
+            "id"      : 6,
+            "judul"   : "Majalah Bobo tidak sama" ,
+         "penulis" : "Subhan Singandaru",
+         "waktu"   : "12-Des-2022",
+         "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "}
+    ]
+}
