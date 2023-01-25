@@ -62,50 +62,47 @@
     </div>
   </div >
 
-    <footer class="w-full h-auto bg-slate-500 mt-12 grid grid-cols-4 gap-5 container p-14">
-      <div class="div grid grid-cols-1">
-        <div class="head text-2xl font-semibold">
-          Pengembang
-        </div>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
+    <footer class="w-full h-auto bg-slate-800 mt-12 container p-14 text-gray-300">
+      <div class="footer-head mb-6">
+        <p class="text-7xl font-semibold">What Hot to news this weeks ?</p>
+        <p class="mt-2 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quae recusandae modi itaque officia aspernatur eos laborum expedita, provident veniam, sint unde laudantium! Sapiente ad sed delectus voluptatibus praesentium, itaque quod architecto sint, repellendus unde debitis nisi tenetur adipisci error tempore fugiat molestias expedita enim fuga recusandae assumenda accusamus cum perferendis. Aspernatur non itaque officiis! Ratione, officia consequuntur ut est porro quam minus, eligendi id accusamus nemo eveniet eos iste vitae saepe. Neque vero dolore totam est, nam distinctio sit qui harum explicabo cum?</p>
       </div>
-      <div class="div grid grid-cols-1">
-        <div class="head text-2xl font-semibold">
-          Tools
+      <div class="footer-add grid grid-cols-4 gap-5">
+        <div class="div grid grid-cols-1 gap-1">
+          <div class="head text-2xl font-semibold">
+            Pengembang
+          </div>
+          <p>Subhan Fadz Kamil S.</p>
+          <p>Az-Zahra Mutiara Dev</p>
+          <p>Tech Annoa</p>
         </div>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="div grid grid-cols-1">
-        <div class="head text-2xl font-semibold">
-          Tecnology
+        <div class="div grid grid-cols-1">
+          <div class="head text-2xl font-semibold">
+            Tools
+          </div>
+          <p>VScode</p>
+          <p>Emmet</p>
+          <p>Laptop</p>
+          <p>Wifi Tetangga</p>
         </div>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="div grid grid-cols-1">
-        <div class="head text-2xl font-semibold">
-          Support
+        <div class="div grid grid-cols-1">
+          <div class="head text-2xl font-semibold">
+            Tecnology
+          </div>
+          <p>Vue 3</p>
+          <p>Tailwind CSS</p>
+          <p>Json Server</p>
+          <p>Axios</p>
         </div>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="div grid grid-cols-1">
+          <div class="head text-2xl font-semibold">
+            Support
+          </div>
+          <p>Doa Ibu</p>
+          <p>Doa Ayah</p>
+          <p>Doa Nenek</p>
+          <p>Doa Istri dan anak</p>
+        </div>
       </div>
     </footer>
 </template>
