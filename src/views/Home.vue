@@ -1,29 +1,28 @@
 <template>
   <div class="container mx-auto px-14 mb-4"> 
-    <div class="jumbotron w-full mt-6 bg-slate-400 h-72 rounded-md " ></div>
 
-    <div class="news-week flex flex-row mt-12">
-      <div class="text basis-1/3 mr-4">
-        <p class="text-3xl font-semibold">What Hot to news this weeks ?</p>
-        <p class="font-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, aspernatur tempora natus dignissimos voluptate quis possimus iusto. Assumenda, tempore perferendis?</p>
+    <div class="slider grid grid-cols-2 max-md:grid-cols-1">
+    <!-- Slider News Text -->
+      <div class="news-week mt-12">
+      <div class="text mr-4">
+        <p class="text-7xl font-semibold">What Hot to news this weeks ?</p>
+        <p class="mt-2 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, aspernatur tempora natus dignissimos voluptate quis possimus iusto. Assumenda, tempore perferendis?</p>
       </div>
-      <!-- <div class=" bg-gray-300 h-auto rounded-md flex-1 overflow-hidden p-4">
-        <div class=" h-28 w-28 bg-slate-800 rounded-sm float-left mr-6"></div>
-        <div class="headline ">
-          <p class="title text-2xl ml-4 font-semibold">Title</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptatum. Sit impedit tenetur eveniet sapiente inventore nisi sint itaque corrupti, vel porro nam earum tempora non. Voluptate ab delectus quia.</p>
-        </div>
-      </div> -->
     </div>
+    <!-- Slider image -->
+    <div class="jumbotron w-full mt-6 bg-slate-400 h-72 rounded-md " ></div>
+    </div>
+    
 
+    <!-- Content Hot News -->
     <div class="hot-news flex flex-row mt-16 ">
-      <div class="div h-96 basis-1/3 bg-gray-200 rounded-md">
+      <div class="div h-96 basis-1/3 bg-gray-200 rounded-md overflow-x-scroll max-lg:hidden">
 
-        <div class=" bg-gray-300 h-auto rounded-sm flex-1 overflow-hidden p-3 m-6">
-        <div class=" h-16 w-16 bg-gray-400 rounded-sm float-left mr-2"></div>
+        <div class=" bg-gray-300 h-auto rounded-sm flex-1 overflow-hidden text-ellipsis p-3 m-6 " v-for="i in items" :key="i.id">
+        <div class=" h-12 w-12 bg-gray-400 rounded-sm float-left mr-2"></div>
         <div class="headline ">
-          <p class="title text-lg ml-4 font-semibold">Title</p>
-          <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, voluptatum. Sit </p>
+          <p class="title text-sm ml-4 font-semibold">{{i.judul}}</p>
+          <p class="text-xs">{{ i.waktu}}</p>
         </div>
         </div>
 
@@ -44,24 +43,13 @@
       </div>
     </div>
 
+    <!-- Another News Paper -->
     <p class="text-center mt-6 text-4xl font-medium mb-4">More News!!</p>
-    <div class="content grid grid-cols-3 gap-5">
-      <!-- Text Asli -->
-      <div class="dev h-auto bg-slate-200  rounded-md"> 
-        <div class="pict bg-slate-400 w-auto h-44 "></div>
-        <div class="text p-4">
-          <p class="title text-lg font-semibold">Makanan Hebat dalah makanan </p>
-          <p class="font-light text-xs">
-            12 mnt ago
-          </p> 
-          <p class="text-sm mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? </p>
-        </div>
-      </div>
-
+    <div class="content grid grid-cols-3 max-lg:grid-cols-2 gap-5"> 
       <!-- Looping Vor -->
 
-      <div class="dev h-auto bg-slate-200  rounded-md" v-for="i in items" :key="i.id"> 
-        <div class="pict bg-slate-400 w-auto h-44 "></div>
+      <div class="dev h-auto bg-slate-200 rounded-md max-sm:overflow-hidden max-sm:h-64" v-for="i in items" :key="i.id"> 
+        <div class="pict bg-slate-400 w-auto h-44 max-sm:h-24 "></div>
         <div class="text p-4">
           <p class="title text-lg font-semibold">{{ i.judul }}</p>
           <p class="font-light text-xs">
@@ -72,8 +60,54 @@
       </div>
 
     </div>
-
   </div >
+
+    <footer class="w-full h-auto bg-slate-500 mt-12 grid grid-cols-4 gap-5 container p-14">
+      <div class="div grid grid-cols-1">
+        <div class="head text-2xl font-semibold">
+          Pengembang
+        </div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="div grid grid-cols-1">
+        <div class="head text-2xl font-semibold">
+          Tools
+        </div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="div grid grid-cols-1">
+        <div class="head text-2xl font-semibold">
+          Tecnology
+        </div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="div grid grid-cols-1">
+        <div class="head text-2xl font-semibold">
+          Support
+        </div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </footer>
 </template>
 
 <script>
