@@ -5,10 +5,12 @@
          "judul"   : "Makanan Terenak DI Pulau Jawa" ,
          "penulis" : "Subhan Singandaru",
          "waktu"   : "12-Des-2022",
+         "genre"   : "Olahraga",
          "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
          {
          "id"      : 2,
          "judul"   : "Fungsi Susu Steril" ,
+         "genre"   : "Olahraga",
          "penulis" : "Subhan Singandaru",
          "waktu"   : "12-Des-2022",
          "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
@@ -16,6 +18,7 @@
             "id"      : 3,
             "judul"   : "Majalah Bobo tidak sama" ,
          "penulis" : "Subhan Singandaru",
+         "genre"   : "Makanan",
          "waktu"   : "12-Des-2022",
          "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
          {
@@ -23,11 +26,13 @@
             "judul"   : "Makanan Terenak DI Pulau Jawa" ,
          "penulis" : "Subhan Singandaru",
          "waktu"   : "12-Des-2022",
+         "genre"   : "Makanan",
          "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
          {
             "id"      : 5,
             "judul"   : "Fungsi Susu Steril" ,
          "penulis" : "Subhan Singandaru",
+         "genre"   : "Politik",
          "waktu"   : "12-Des-2022",
          "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "},
          {
@@ -35,6 +40,7 @@
             "judul"   : "Majalah Bobo tidak sama" ,
          "penulis" : "Subhan Singandaru",
          "waktu"   : "12-Des-2022",
+         "genre"   : "Politik",
          "isi"     : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam corporis ipsum voluptates aliquid provident impedit voluptas ipsa nesciunt? Quibusdam vel fuga quaerat eveniet sequi, tenetur at odit eum inventore qui. Maxime sapiente exercitationem porro esse dicta quas nam quidem suscipit? "}
     ]
 }
