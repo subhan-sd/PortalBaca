@@ -11,9 +11,13 @@
                     Hallo ini Detail
                 </div>
                 <div class="sub-head w-1/4h-10">
-                    <div class="created italic text-xl">Mh.s Supadi Maryadi</div> 
-                    <div class="date font-light">12 - Januari - 2022 </div>
-                    
+                    <div class="created italic text-xl flex ">
+                        <div class="profil h-10 w-10 bg-slate-200 rounded-full"></div>
+                        <div class="publish ml-3 mt-0.5">
+                            <div class="name text-sm ">{{penulis}}</div>  
+                            <div class="date font-light text-xs">12 - Januari - 2022 </div>
+                        </div>
+                </div> 
                 </div>
                 </div>
     
@@ -30,5 +34,15 @@
 </template>
 <script>
 export default {
-  name: 'detailContent'}
+  name: 'detailContent',
+  data(){
+        return{
+        genre:'',
+        isi : '',
+        judul : '',
+        penulis : '',
+        waktu : ''
+        };
+    },
+    }
 </script>

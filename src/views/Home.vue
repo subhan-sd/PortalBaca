@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto px-32 max-md:px-4 mb-4"> 
+  <div class="container mx-auto px-32 max-lg:px-2 max-lg:mx-auto mb-4"> 
 
-    <div class="slider grid grid-cols-2 max-md:grid-cols-1">
+    <div class="slider grid grid-cols-2 max-lg:grid-cols-1">
     <!-- Slider News Text -->
       <div class="news-week mt-12">
       <div class="text mr-4">
@@ -15,15 +15,14 @@
     
 
     <!-- Content Hot News -->
-    <div class="hot-news flex flex-row mt-16 ">
-      <div class="div h-96 basis-1/3 bg-gray-200 rounded-md overflow-x-scroll max-lg:hidden">
+    <div class="hot-news flex flex-row mt-16 max-lg:mt-8 max-lg:flex-col-reverse">
 
-        
-        <div class=" bg-gray-300 h-auto rounded-sm flex-1 overflow-hidden text-ellipsis p-3 m-6 " v-for="i in items" :key="i.id">
+      <div class="div h-96 basis-1/3 bg-gray-200 rounded-md overflow-x-scroll">
+        <div class=" bg-gray-300 h-auto rounded-sm flex-1 overflow-hidden text-ellipsis p-3 m-1" v-for="i in items" :key="i.id">
           <a href="#">
         <div class=" h-12 w-12 bg-gray-400 rounded-sm float-left mr-2"></div>
         <div class="headline ">
-          <p class="title text-sm ml-4 font-semibold">{{i.judul}}</p>
+          <p class="title text-sm ml-4 font-medium">{{i.judul}}</p>
           <p class="text-xs">{{ i.waktu}}</p>
         </div>
       </a>
@@ -32,7 +31,7 @@
 
       </div>
       <div class="div h-autoflex-1 ml-4">
-        <div class="text basis-1/3 m-16">
+        <div class="text basis-1/3 m-16 max-md:m-4">
         <p class="text-3xl font-semibold ">The Hot to news this weeks Is 'Akapela'</p>
         <p class="font-normal text-xl">Create By.Subhan || 2012, 12 Jan </p>
         <div class="container mx-auto px-4 mt-4">
@@ -69,7 +68,7 @@
   <!-- Footer -->
 
     <footer class="w-full h-auto bg-slate-800 mt-12 p-14 text-gray-300">
-      <div class="container mx-auto px-14 mb-2">
+      <div class="container mx-auto px-14 mb-2 max-md:px-2 max-md:mx-auto">
       <div class="footer-head mb-6">
         <p class="text-7xl font-semibold">What Hot to news this weeks ?</p>
         <p class="mt-2 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quae recusandae modi itaque officia aspernatur eos laborum expedita, provident veniam, sint unde laudantium! Sapiente ad sed delectus voluptatibus praesentium, itaque quod architecto sint, repellendus unde debitis nisi tenetur adipisci error tempore fugiat molestias expedita enim fuga recusandae assumenda accusamus cum perferendis. Aspernatur non itaque officiis! Ratione, officia consequuntur ut est porro quam minus, eligendi id accusamus nemo eveniet eos iste vitae saepe. Neque vero dolore totam est, nam distinctio sit qui harum explicabo cum?</p>
