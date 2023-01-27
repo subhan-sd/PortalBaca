@@ -27,8 +27,6 @@
         </div>
       </a>
         </div>
-   
-
       </div>
       <div class="div h-autoflex-1 ml-4">
         <div class="text basis-1/3 m-16 max-md:m-4">
