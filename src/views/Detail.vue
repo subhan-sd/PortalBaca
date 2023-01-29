@@ -8,7 +8,7 @@
                 <!-- Headline Section -->
                 <div class="headline mb-12">
                 <div class="head font-semibold text-7xl">
-                    Hallo ini Detail
+                   {{judul}}
                 </div>
                 <div class="sub-head w-1/4h-10">
                     <div class="created italic text-xl flex ">
