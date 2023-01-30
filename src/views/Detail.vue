@@ -1,6 +1,6 @@
 <template>
      <div class="container mx-auto px-32 mb-4">
-
+//Ini detail
         <!-- New Section -->
         <div class="news-section grid grid-cols-3 gap-5">
             <!-- Point News -->
